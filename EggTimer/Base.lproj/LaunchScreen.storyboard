@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" alpha="0.84999999999999998" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="8Ao-nT-6uk">
+                                <rect key="frame" x="82" y="323" width="250" height="250"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EggTimer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BD-jM-Fbu">
+                                <rect key="frame" x="20" y="636" width="374" height="44"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Ao-nT-6uk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3Kg-A6-7Gc"/>
+                            <constraint firstItem="8Ao-nT-6uk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9n0-4t-9uh"/>
+                            <constraint firstItem="4BD-jM-Fbu" firstAttribute="top" secondItem="8Ao-nT-6uk" secondAttribute="bottom" constant="63" id="aTn-Y0-1l9"/>
+                            <constraint firstItem="8Ao-nT-6uk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="279" id="gtI-hZ-va9"/>
+                            <constraint firstItem="8Ao-nT-6uk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="p4G-c7-FNe"/>
+                            <constraint firstItem="4BD-jM-Fbu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="rLs-uR-1mr"/>
+                            <constraint firstItem="4BD-jM-Fbu" firstAttribute="centerX" secondItem="8Ao-nT-6uk" secondAttribute="centerX" id="yyp-gJ-57w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="soft_egg" width="287" height="365"/>
+    </resources>
+</document>
